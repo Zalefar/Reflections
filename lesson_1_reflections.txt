@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bugt hat was introduced?
+
+    Diff's function is to show  changes or more specifically differences between the provided files. It does this by searching line by line and comparing every character it sees to determine if they are the same in both files, the characters and their locations. This is useful for finding bugs when we assume that we have one 'old' and this is key, likely working version of a file and we compare it to a newer version that is an edited version of the old and is no longer performing as expected, implying that a bug exists. When we compare our old version of the file with the new version that has been edited and which no longer works as expected, diff will show us every character that is different. By reducing the code down to only those things that have changed we are better able to spot how our changes have introduced a bug.   
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    I believe that there might be several benefits to having access to the entire history of a file, when it comes to improving your efficiency as a programmer.First I would point out the obvious which is that example we just discussed, finding a bug that you accidently introduced and doing it in a more efficient manner then combing through all of your code to try and find your mistake. Next I know in my own personal experience that I might in an effort to refactor or drastically alter some fundamental parts of my code come to realize in the process thatI have gone down the wrong path or made things much worse then before. Having the ability to just dump all of my code and pull up the last working version to start fresh is extrememly efficient rather then trying to return back to a working state in the code that i was altering. There could concievably even be 'meta' benefits such as gaining a furhter understanding of how you develop your code. The steps you took, teh process as it were. This can be helpful if you wished to find inefficency in your process and discover were you most likely made certain errors. Addtionally having access to file histories allows others to see your thinking and development process, which may help them work better with you. 
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs. having version automatically saved, like Google does does? 
+  
+    Having control allows you to insert some logic into your commits. You get to decide if a change is large enough or important enough to warrant a commit. You then get to add a commit on what you did to add context to the 'saved' additions. The biggest downside at least for me is remebering to commit when I have made the aforementioned changes. It can sometimes be hard to establish the habit of breifly interrupting your workflow in or to commit. The benifits of automatically saving are the inverse, The benfit being that you don't have to remember to 'save' or commit and you don't have to interrupt your workflow. The downside is that there is no logic to the commits or saves. You are also not able to comment on the save so other than the meta data or time and date we do not know what is different in each saved version. 
+
+Why do you think some version control systems like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file seperately?
+
+    I believe this is a result of the perceived function of the versioning control platforms. Google docs is really designed more for pulishing, word docs, powerpoints, spreadsheets, whereas Git was made with programming in mind. In programming, abstraction and object oriented programming is the de facto standard for 'correct' coding. These methods often require and depend on many programs, methods, styles, and applications that exists outside of one script. Therefore when implementing most code the programmer needs to edit mulitple files and update many files to make her/his code work. Git facilitates this, allowing a coder to logically commit changes to a process at one time, requiring however many seperate files as is the case. That way when making changes a programmer can return to all the relevent files without having to remember which files were involved in a particular code block. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The command `git log` will list the entire history of commits in the given git repository. Included in this list is a unique indentifier or key of each commit, this key represents those file at the period of the commit, used in conjuction with git diff we can see the difference between any of the committed files  throughout the history of the repository. This means you can review the steps taken in the development of all the files recorded in the git commit history. These two commands will allow a user to reproduce the production of the files in the repository.
+
+How might using version control make you more confident to make changes that could break something?
+
+    Personally I would feel far more comfortable experimenting and trying new things with the knowledge that going back to a previous working version of my project was doable and easy. In consequence I'd say that git versioning encourages taking risks and exploring other possiblilities while mitigating the friction of breakage to the programmer. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Writing code! I will use it to set up repositories for my Udacity classes and their respective projects.

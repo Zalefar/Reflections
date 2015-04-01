@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+     When you initialize a repositoryyou are creating a git version control file system.
+ This means that git will now record all committed changes and keep a snapshot of all of
+ your files status for each commit. This is neccesary so that you can go back and review
+prior states of your files. Creating a git repository allows for function such as diff 
+and log to be preformed on your files.
+

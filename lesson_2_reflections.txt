@@ -6,3 +6,15 @@ What happens when you initialize a repository? Why do you need to do it?
 prior states of your files. Creating a git repository allows for function such as diff 
 and log to be preformed on your files.
 
+How is the staging area different from the working directory and the respository? What 
+value do you think it offers?  
+
+    The staging area is just that an intermediate zone between your working directory an
+d the git repository, it's used to stage your commits to your git repository. This
+ provides you with finite control on what files are commited and at what time. You have
+ finer control on determining logical commits when you have been working on many differ
+erent files in your working directory. Allowing you to selective commits the changes you
+'ve made to many files allows you if you wish to make a comment for each individual file
+.
+
+   

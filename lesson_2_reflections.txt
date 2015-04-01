@@ -23,5 +23,15 @@ How can you use the staging area to makes sure you have one commit per logical c
 This means that if you have a dozen files with changes you can commit however many you w
 ant from 1 to 12 and add comments as appropriate.
 
+What are some some situations when branches would be helpful in keeping your history org
+anized? How would branches help? 
+
+ Branches are an excellent tool for trying out different approaches for your code. If 
+you wished to experiment with a new feature, provide different version for different
+platforms or operating systems. With branches you can play around with your code without
+having to worry about affecting the master branch until and if you wish to merge the 
+experiement into the main branch of code.
+
+
 
    

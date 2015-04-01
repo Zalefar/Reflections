@@ -17,4 +17,11 @@ erent files in your working directory. Allowing you to selective commits the cha
 've made to many files allows you if you wish to make a comment for each individual file
 .
 
+How can you use the staging area to makes sure you have one commit per logical change?
+
+    Using the staging area allows you to manually select which files you wish to commit.
+This means that if you have a dozen files with changes you can commit however many you w
+ant from 1 to 12 and add comments as appropriate.
+
+
    

@@ -32,6 +32,10 @@ platforms or operating systems. With branches you can play around with your code
 having to worry about affecting the master branch until and if you wish to merge the 
 experiement into the main branch of code.
 
+How do the diagrams help you visualize the branch structure?
 
+    The diagrams provide a much simplier visual aid then the text for descibing how the 
+commits and branches are structured. It's much more intuitive to look at a directed grap
+h then to discphifer the text branch names. 
 
    

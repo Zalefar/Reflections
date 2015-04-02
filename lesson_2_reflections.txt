@@ -1,21 +1,16 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-     When you initialize a repositoryyou are creating a git version control file system.
+    When you initialize a repository you are creating a git version control file system.
  This means that git will now record all committed changes and keep a snapshot of all of
- your files status for each commit. This is neccesary so that you can go back and review
-prior states of your files. Creating a git repository allows for function such as diff 
-and log to be preformed on your files.
+ your files statuses at each commit. This is neccesary so that you can go back and review
+prior states of your files. Creating a git repository allows for function such as diff, log, add, commit, graph, etc. to be preformed on your files. In essence a git repository is initializing the functions of a versioning control system in that directory.
 
 How is the staging area different from the working directory and the respository? What 
 value do you think it offers?  
 
     The staging area is just that an intermediate zone between your working directory an
 d the git repository, it's used to stage your commits to your git repository. This
- provides you with finite control on what files are commited and at what time. You have
- finer control on determining logical commits when you have been working on many differ
-erent files in your working directory. Allowing you to selective commits the changes you
-'ve made to many files allows you if you wish to make a comment for each individual file
-.
+ provides you with more finite control on what files are commited and at what time. You have finer control on determining logical commits when you have been working on many differerent files or project in your working directory. Allowing you to selectively commit the changes you've made to all the files you might have been editing in your working directory allows you do work on several logical steps and commit the each logcial step seperately or break down a complicated process into smaller commits and add more contextual details with the comments.
 
 How can you use the staging area to makes sure you have one commit per logical change?
 
@@ -26,28 +21,22 @@ ant from 1 to 12 and add comments as appropriate.
 What are some some situations when branches would be helpful in keeping your history org
 anized? How would branches help? 
 
- Branches are an excellent tool for trying out different approaches for your code. If 
-you wished to experiment with a new feature, provide different version for different
-platforms or operating systems. With branches you can play around with your code without
+ Branches are an excellent tool for trying out different approaches to your code. If 
+you wished to experiment with a new feature, provide different versions for different
+platforms or operating systems or creating a branch for contributors to edit without affecting your working version. With branches you can play around with your code without
 having to worry about affecting the master branch until and if you wish to merge the 
-experiement into the main branch of code.
+experiement into the main branch of code. Branches allow for easier contributor integrationand the creation of alternative code implementation for comparing versions.
 
 How do the diagrams help you visualize the branch structure?
 
-    The diagrams provide a much simplier visual aid then the text for descibing how t
-he commits and branches are structured. It's much more intuitive to look at a direction graph then to decipher the text branch names. 
+    The diagrams provide a much simplier visual aid then text description for descibing how the commits and branches are structured. It's much more intuitive to look at a direction graph then to decipher the text branch names. 
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
      Merging two branches results in a combining of the two branch commit series. In
-this manner we can add one branches commits to another joining the similar ones by 
-reconciling to one or the others. Representing in way of a tree helps to highlight 
-where we have cut off commits in addition to helping to show which commits we will ha
-ve access to after we have made a merge.
+this manner we can add one branches commits to another joining any similar file by reconciling to one or the other. Representing it as a tree helps to highlight where we might have cut off access to commits in addition to helping to show which commits we will have access to after we have made a merge.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manally?
 
-     Well automatic merges are very quick, however they will only work in select circum-
-stances, whenever the are multiple changes to the same file from different branches then 
-we are going to have to manually choose how to resolve our merging conflicts. This may 
-be slow but it allows for much more control over our code, which is a good thing.   
+    Automatic merges are very quick and easy, however they will only work in select circumstances. If there are multiple changes to the same file from different branches then we are going to have to manually choose how to resolve our merge conflicts. This may be slow but it allows for much more control over our code, which is a good thing. In addition to this the computer may simply not be able to make the decision itself.
+   

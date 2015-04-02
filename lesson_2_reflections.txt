@@ -45,4 +45,9 @@ reconciling to one or the others. Representing in way of a tree helps to highlig
 where we have cut off commits in addition to helping to show which commits we will ha
 ve access to after we have made a merge.
 
-   
+What are the pros and cons of Git's automatic merging vs. always doing merges manally?
+
+     Well automatic merges are very quick, however they will only work in select circum-
+stances, whenever the are multiple changes to the same file from different branches then 
+we are going to have to manually choose how to resolve our merging conflicts. This may 
+be slow but it allows for much more control over our code, which is a good thing.   
